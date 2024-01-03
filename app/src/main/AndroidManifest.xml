@@ -13,21 +13,33 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
-            android:name="tuan3.Tuan32MainActivity"
-            android:exported="true">
+            android:name="tuan4.Tuan41MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="tuan3.Tuan31MainActivity"
+            android:name="tuan3.Tuan32MainActivity"
             android:exported="true">
 <!--            <intent-filter>-->
 <!--                <action android:name="android.intent.action.MAIN" />-->
 
 <!--                <category android:name="android.intent.category.LAUNCHER" />-->
 <!--            </intent-filter>-->
+        </activity>
+        <activity
+            android:name="tuan3.Tuan31MainActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
         </activity> <!-- <activity -->
         <!-- android:name="tuan3.Tuan31MainActivity" -->
         <!-- android:exported="false" /> -->
